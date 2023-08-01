@@ -1,5 +1,7 @@
 # worldcup2023-posters
 
+![](https://www.gencup.art/social2023.jpg)
+
 ## Run localy
 
 ```
