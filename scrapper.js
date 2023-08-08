@@ -110,8 +110,11 @@ async function merge(index) {
 
   const dataTimeline = await responseTimeline.json();
 
+  // Regular Goals
   dataTimeline.Event.filter(
-    (e) => e.Type === 0 || e.Type === 41 || e.Type === 34
+    (e) =>
+      (e.Type === 0 || e.Type === 41 || e.Type === 34) &&
+      parseInt(e.MatchMinute) <= 120
   ).map((event) => {
     let team = event.IdTeam === homeID ? "home" : "away";
 
@@ -132,6 +135,28 @@ async function merge(index) {
     });
   });
 
+  // Penalty Goals
+  dataTimeline.Event.filter(
+    (e) =>
+      (e.Type === 41 || e.Type === 51 || e.Type === 65 || e.type === 60) &&
+      parseInt(e.MatchMinute) > 120
+  ).map((event) => {
+    let team = event.IdTeam === homeID ? "home" : "away";
+    let type = "goal";
+
+    if (event.Type === 51 || event.Type === 65 || event.Type === 60) {
+      type = "missed";
+    }
+
+    matches[index][team + "_team_penaltis"].push({
+      type_of_event: type,
+      player: getUppercaseWords(event.EventDescription[0].Description).replace(
+        "(USA)",
+        ""
+      ),
+    });
+  });
+
   // Write json
   // ----------------------------
   const json = JSON.stringify(matches);
@@ -145,7 +170,7 @@ async function merge(index) {
 // -------------------------------
 
 async function process() {
-  for (let index = 37; index < 100; index++) {
+  for (let index = 54; index < 100; index++) {
     await merge(index);
   }
 }
@@ -154,9 +179,6 @@ process();
 
 // Helpers
 // -------------------------------
-function findAccuracy(total, completed) {
-  return Math.round((completed / total) * 100);
-}
 
 function getUppercaseWords(str) {
   return str
@@ -199,6 +221,8 @@ const baseObj = {
   },
   home_team_events: [],
   away_team_events: [],
+  home_team_penaltis: [],
+  away_team_penaltis: [],
 };
 
 const baseEventObj = {

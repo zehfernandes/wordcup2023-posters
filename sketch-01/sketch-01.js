@@ -26,7 +26,7 @@ const MARGIN = {
 // ------------------------------------------
 export let props = {
   match: {
-    value: "New Zealand x Norway",
+    value: "Sweden x USA",
     params: {
       // String because fragment don't work well with label and value
       options: matches.map(
@@ -266,6 +266,13 @@ export const update = ({ context: ctx, width, height, props, ...rest }) => {
       position.quad = 14;
     }
 
+    // Hardcode france goal
+    if (data.id === 45 && i === 7) {
+      position.row = position.row = 4;
+      position.column = 3;
+      position.quad = 14;
+    }
+
     // Change position if the goal already exis in that quadrant
     // TODO: If happen in the last quadrand not handle yet
     if (quadData[position.quad]) {
@@ -302,6 +309,9 @@ export const update = ({ context: ctx, width, height, props, ...rest }) => {
 
   // Symbol
   drawSymbol(data.score);
+
+  // Penalty
+  drawPenalty(data.penalty);
 
   // Text
   drawText(data.text);
@@ -448,6 +458,73 @@ export const update = ({ context: ctx, width, height, props, ...rest }) => {
     return cutNoiseGroup;
   }
 
+  /*
+    -------------------------------------- 
+    Draw Penaltis
+    --------------------------------------
+  */
+  function drawPenalty({ home, away }) {
+    const size = 4 * SCALE;
+    const missedHeight = 2 * SCALE;
+    const y = viewPortHeight + size + startY + 10 * SCALE;
+    const x = startX + size / 2;
+
+    if (home === undefined && away === undefined) return;
+    if (home.length === 0 && away.length === 0) return;
+
+    const homePenalty = new Group();
+    const awayPenalty = new Group();
+
+    // Team Home
+    home.forEach((p, i) => {
+      if (p.type_of_event === "goal") {
+        const penalty = new Path.Circle({
+          center: [x + 14 * SCALE * i, y],
+          radius: size,
+          fillColor: teamHomeColor,
+        });
+
+        homePenalty.addChild(penalty);
+      }
+
+      if (p.type_of_event === "missed") {
+        const missed = new Path.Rectangle({
+          point: [x + 14 * SCALE * i - size, y - missedHeight / 2],
+          size: [size * 2, missedHeight],
+          fillColor: teamHomeColor,
+        });
+
+        homePenalty.addChild(missed);
+      }
+    });
+
+    // Team Away
+    away.forEach((p, i) => {
+      if (p.type_of_event === "goal") {
+        const penalty = new Path.Circle({
+          center: [x + 14 * SCALE * i, y],
+          radius: size,
+          fillColor: teamAwayColor,
+        });
+
+        awayPenalty.addChild(penalty);
+      }
+
+      if (p.type_of_event === "missed") {
+        const missed = new Path.Rectangle({
+          point: [x + 14 * SCALE * i - size, y - missedHeight / 2],
+          size: [size * 2, missedHeight],
+          fillColor: teamAwayColor,
+        });
+
+        awayPenalty.addChild(missed);
+      }
+    });
+
+    awayPenalty.position.x =
+      startX + viewPortWidth - awayPenalty.bounds.width / 2;
+  }
+
   /* ---------------------------------
   Add Post Effect
   --------------------------------- */
@@ -494,7 +571,7 @@ export const update = ({ context: ctx, width, height, props, ...rest }) => {
     Draw Text
     --------------------------------------
   */
-  function drawText({ home, away, venue, date }) {
+  function drawText({ home, away, venue, date, stage }) {
     const sizeBig = 48 * SCALE;
     const sizeSmall = 13 * SCALE;
     const compensation = -5 * SCALE;
@@ -525,6 +602,32 @@ export const update = ({ context: ctx, width, height, props, ...rest }) => {
     awayTeamText.position.y =
       45 * SCALE + homeTeamText.bounds.height + awayTeamText.bounds.height / 2;
 
+    // TODO: If stage is not first round, show stage
+    let lastPostion =
+      awayTeamText.bounds.y +
+      awayTeamText.bounds.height +
+      awayTeamText.bounds.height / 2;
+
+    if (stage !== "FIRST STAGE") {
+      const stageText = new PointText({
+        point: [0, 0],
+        content: stage,
+        fillColor: getInverseColor(props.background.value),
+        fontFamily,
+        fontWeight: "600",
+        fontSize: sizeSmall,
+      });
+
+      stageText.position.x = startX + stageText.bounds.width / 2;
+      stageText.position.y = lastPostion;
+
+      lastPostion =
+        stageText.bounds.y +
+        stageText.bounds.height +
+        3 * SCALE +
+        stageText.bounds.height / 2;
+    }
+
     const dateText = new PointText({
       point: [0, 0],
       content: date,
@@ -535,10 +638,7 @@ export const update = ({ context: ctx, width, height, props, ...rest }) => {
     });
 
     dateText.position.x = startX + dateText.bounds.width / 2;
-    dateText.position.y =
-      awayTeamText.bounds.y +
-      awayTeamText.bounds.height +
-      awayTeamText.bounds.height / 2;
+    dateText.position.y = lastPostion;
 
     const venueText = new PointText({
       point: [0, 0],
@@ -642,12 +742,17 @@ function parseData(data) {
       away: data.away_team.name,
       date: formatDate(data.datetime),
       venue: data.location.toUpperCase(),
+      stage: data.stage_name.toUpperCase(),
     },
     homeCode: data.home_team.code,
     awayCode: data.away_team.code,
     score: {
       home: data.home_team.goals,
       away: data.away_team.goals,
+    },
+    penalty: {
+      home: data.home_team_penaltis,
+      away: data.away_team_penaltis,
     },
   };
 }

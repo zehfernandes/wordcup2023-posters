@@ -1444,7 +1444,7 @@
       {
         "type_of_event": "goal",
         "time": "74'",
-        "player": "WANG SH PR)",
+        "player": "WANG",
         "position": "in"
       }
     ],
@@ -1559,7 +1559,7 @@
       {
         "type_of_event": "goal",
         "time": "17'",
-        "player": "LE SOMMER D",
+        "player": "LE SOMMER",
         "position": "in"
       },
       {
@@ -2083,5 +2083,976 @@
         "position": "in"
       }
     ]
+  },
+  {
+    "id": 38,
+    "venue": "Dunedin Stadium",
+    "location": "Dunedin ",
+    "stage_name": "First Stage",
+    "datetime": "2023-08-01T07:00:00Z",
+    "home_team": {
+      "goals": 0,
+      "code": "VIE",
+      "name": "Vietnam",
+      "penalties": 0
+    },
+    "away_team": {
+      "goals": 7,
+      "code": "NED",
+      "name": "Netherlands",
+      "penalties": 0
+    },
+    "home_team_statistics": {
+      "ball_possession": 30.91301,
+      "num_passes": 286,
+      "attempts_on_goal": 5,
+      "distance_covered": 0,
+      "distance_walking": 42454.735941,
+      "distance_speedsprinting": 1008.598919,
+      "distance_speedrunning": 19745.663373,
+      "distance_jogging": 37390.945492000006
+    },
+    "away_team_statistics": {
+      "ball_possession": 69.08699,
+      "num_passes": 687,
+      "attempts_on_goal": 42,
+      "distance_covered": 0,
+      "distance_walking": 43637.443911999995,
+      "distance_speedsprinting": 1305.344688,
+      "distance_speedrunning": 23450.402816,
+      "distance_jogging": 41828.281976
+    },
+    "home_team_events": [],
+    "away_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "8'",
+        "player": "MARTENS-VAN LEER",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "11'",
+        "player": "SNOEIJS",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "18'",
+        "player": "BRUGTS",
+        "position": "out"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "23'",
+        "player": "ROORD",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "45'",
+        "player": "VAN DE DONK",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "57'",
+        "player": "BRUGTS",
+        "position": "out"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "83'",
+        "player": "ROORD",
+        "position": "in"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "venue": "Eden Park",
+    "location": "Auckland ",
+    "stage_name": "First Stage",
+    "datetime": "2023-08-01T07:00:00Z",
+    "home_team": {
+      "goals": 0,
+      "code": "POR",
+      "name": "Portugal",
+      "penalties": 0
+    },
+    "away_team": { "goals": 0, "code": "USA", "name": "USA", "penalties": 0 },
+    "home_team_statistics": {
+      "ball_possession": 53.05517,
+      "num_passes": 423,
+      "attempts_on_goal": 5,
+      "distance_covered": 0,
+      "distance_walking": 38508.395485999994,
+      "distance_speedsprinting": 1949.029148,
+      "distance_speedrunning": 23458.67557,
+      "distance_jogging": 32118.794773999998
+    },
+    "away_team_statistics": {
+      "ball_possession": 46.94483,
+      "num_passes": 300,
+      "attempts_on_goal": 13,
+      "distance_covered": 0,
+      "distance_walking": 37933.714808,
+      "distance_speedsprinting": 2281.648872,
+      "distance_speedrunning": 23472.853464,
+      "distance_jogging": 34933.190264
+    },
+    "home_team_events": [],
+    "away_team_events": []
+  },
+  {
+    "id": 40,
+    "venue": "Perth Rectangular Stadium",
+    "location": "Perth ",
+    "stage_name": "First Stage",
+    "datetime": "2023-08-01T11:00:00Z",
+    "home_team": { "goals": 0, "code": "HAI", "name": "Haiti", "penalties": 0 },
+    "away_team": {
+      "goals": 2,
+      "code": "DEN",
+      "name": "Denmark",
+      "penalties": 0
+    },
+    "home_team_statistics": {
+      "ball_possession": 42.930542,
+      "num_passes": 284,
+      "attempts_on_goal": 10,
+      "distance_covered": 0,
+      "distance_walking": 41862.316320000005,
+      "distance_speedsprinting": 2179.40706,
+      "distance_speedrunning": 23398.2027,
+      "distance_jogging": 38178.34398
+    },
+    "away_team_statistics": {
+      "ball_possession": 57.06946,
+      "num_passes": 467,
+      "attempts_on_goal": 9,
+      "distance_covered": 0,
+      "distance_walking": 44122.17368,
+      "distance_speedsprinting": 2357.95612,
+      "distance_speedrunning": 27814.00596,
+      "distance_jogging": 43122.20276
+    },
+    "home_team_events": [],
+    "away_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "21'",
+        "player": "HARDER",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "90'+10'",
+        "player": "TROELSGAARD",
+        "position": "in"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "venue": "Hindmarsh Stadium",
+    "location": "Adelaide ",
+    "stage_name": "First Stage",
+    "datetime": "2023-08-01T11:00:00Z",
+    "home_team": {
+      "goals": 1,
+      "code": "CHN",
+      "name": "China PR",
+      "penalties": 0
+    },
+    "away_team": {
+      "goals": 6,
+      "code": "ENG",
+      "name": "England",
+      "penalties": 0
+    },
+    "home_team_statistics": {
+      "ball_possession": 23.91817,
+      "num_passes": 284,
+      "attempts_on_goal": 7,
+      "distance_covered": 0,
+      "distance_walking": 40903.728319999995,
+      "distance_speedsprinting": 1240.20288,
+      "distance_speedrunning": 25389.70896,
+      "distance_jogging": 42327.66496
+    },
+    "away_team_statistics": {
+      "ball_possession": 76.081825,
+      "num_passes": 795,
+      "attempts_on_goal": 18,
+      "distance_covered": 0,
+      "distance_walking": 43474.848,
+      "distance_speedsprinting": 1992.5972000000002,
+      "distance_speedrunning": 23322.4445,
+      "distance_jogging": 40316.128574999995
+    },
+    "home_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "57'",
+        "player": "WANG",
+        "position": "in"
+      }
+    ],
+    "away_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "4'",
+        "player": "RUSSO",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "26'",
+        "player": "HEMP",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "41'",
+        "player": "JAMES",
+        "position": "out"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "65'",
+        "player": "JAMES",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "77'",
+        "player": "KELLY",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "84'",
+        "player": "DALY",
+        "position": "in"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "venue": "Wellington Regional Stadium",
+    "location": "Wellington ",
+    "stage_name": "First Stage",
+    "datetime": "2023-08-02T07:00:00Z",
+    "home_team": {
+      "goals": 3,
+      "code": "RSA",
+      "name": "South Africa",
+      "penalties": 0
+    },
+    "away_team": { "goals": 2, "code": "ITA", "name": "Italy", "penalties": 0 },
+    "home_team_statistics": {
+      "ball_possession": 38.01752,
+      "num_passes": 264,
+      "attempts_on_goal": 12,
+      "distance_covered": 0,
+      "distance_walking": 43843.046374,
+      "distance_speedsprinting": 2023.863656,
+      "distance_speedrunning": 23648.40685,
+      "distance_jogging": 35219.627318000006
+    },
+    "away_team_statistics": {
+      "ball_possession": 61.98248,
+      "num_passes": 485,
+      "attempts_on_goal": 17,
+      "distance_covered": 0,
+      "distance_walking": 42405.36298799999,
+      "distance_speedsprinting": 1765.0044360000002,
+      "distance_speedrunning": 25784.904549,
+      "distance_jogging": 37743.941016
+    },
+    "home_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "32'",
+        "player": "ORSI",
+        "position": "out"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "67'",
+        "player": "MAGAIA",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "90'+2'",
+        "player": "KGATLANA",
+        "position": "in"
+      }
+    ],
+    "away_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "11'",
+        "player": "CARUSO",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "74'",
+        "player": "CARUSO",
+        "position": "in"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "venue": "Waikato Stadium",
+    "location": "Hamilton ",
+    "stage_name": "First Stage",
+    "datetime": "2023-08-02T07:00:00Z",
+    "home_team": {
+      "goals": 0,
+      "code": "ARG",
+      "name": "Argentina",
+      "penalties": 0
+    },
+    "away_team": {
+      "goals": 2,
+      "code": "SWE",
+      "name": "Sweden",
+      "penalties": 0
+    },
+    "home_team_statistics": {
+      "ball_possession": 40.22094,
+      "num_passes": 326,
+      "attempts_on_goal": 6,
+      "distance_covered": 0,
+      "distance_walking": 40546.962192000006,
+      "distance_speedsprinting": 958.8088800000002,
+      "distance_speedrunning": 22926.185664,
+      "distance_jogging": 38022.098808
+    },
+    "away_team_statistics": {
+      "ball_possession": 59.77906,
+      "num_passes": 449,
+      "attempts_on_goal": 7,
+      "distance_covered": 0,
+      "distance_walking": 40995.098112,
+      "distance_speedsprinting": 1404.542976,
+      "distance_speedrunning": 23537.06784,
+      "distance_jogging": 39283.31136
+    },
+    "home_team_events": [],
+    "away_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "66'",
+        "player": "BLOMQVIST",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "90'",
+        "player": "RUBENSSON",
+        "position": "in"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "venue": "Melbourne Rectangular Stadium",
+    "location": "Melbourne ",
+    "stage_name": "First Stage",
+    "datetime": "2023-08-02T10:00:00Z",
+    "home_team": {
+      "goals": 0,
+      "code": "JAM",
+      "name": "Jamaica",
+      "penalties": 0
+    },
+    "away_team": {
+      "goals": 0,
+      "code": "BRA",
+      "name": "Brazil",
+      "penalties": 0
+    },
+    "home_team_statistics": {
+      "ball_possession": 37.587727,
+      "num_passes": 222,
+      "attempts_on_goal": 4,
+      "distance_covered": 0,
+      "distance_walking": 40561.556125999996,
+      "distance_speedsprinting": 1561.716845,
+      "distance_speedrunning": 22951.852390999997,
+      "distance_jogging": 38536.709458
+    },
+    "away_team_statistics": {
+      "ball_possession": 62.41227,
+      "num_passes": 590,
+      "attempts_on_goal": 17,
+      "distance_covered": 0,
+      "distance_walking": 41237.742671,
+      "distance_speedsprinting": 2126.3383209999997,
+      "distance_speedrunning": 24127.880429999997,
+      "distance_jogging": 37546.948176
+    },
+    "home_team_events": [],
+    "away_team_events": []
+  },
+  {
+    "id": 45,
+    "venue": "Sydney Football Stadium",
+    "location": "Sydney ",
+    "stage_name": "First Stage",
+    "datetime": "2023-08-02T10:00:00Z",
+    "home_team": {
+      "goals": 3,
+      "code": "PAM",
+      "name": "Panama",
+      "penalties": 0
+    },
+    "away_team": {
+      "goals": 6,
+      "code": "FRA",
+      "name": "France",
+      "penalties": 0
+    },
+    "home_team_statistics": {
+      "ball_possession": 30.974089,
+      "num_passes": 204,
+      "attempts_on_goal": 8,
+      "distance_covered": 0,
+      "distance_walking": 42914.658105,
+      "distance_speedsprinting": 1574.069244,
+      "distance_speedrunning": 22270.952682,
+      "distance_jogging": 35097.4899
+    },
+    "away_team_statistics": {
+      "ball_possession": 69.02591,
+      "num_passes": 500,
+      "attempts_on_goal": 28,
+      "distance_covered": 0,
+      "distance_walking": 41246.712632999996,
+      "distance_speedsprinting": 1753.5570989999999,
+      "distance_speedrunning": 22480.384176,
+      "distance_jogging": 38632.714473
+    },
+    "home_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "2'",
+        "player": "COX",
+        "position": "out"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "64'",
+        "player": "PINZON",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "87'",
+        "player": "L. CEDEÑO",
+        "position": "in"
+      }
+    ],
+    "away_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "21'",
+        "player": "LAKRAR",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "28'",
+        "player": "DIANI",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "37'",
+        "player": "DIANI",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "45'+5'",
+        "player": "LE GARREC",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "52'",
+        "player": "DIANI",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "90'+10'",
+        "player": "BECHO",
+        "position": "in"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "venue": "Brisbane Stadium",
+    "location": "Brisbane ",
+    "stage_name": "First Stage",
+    "datetime": "2023-08-03T10:00:00Z",
+    "home_team": {
+      "goals": 1,
+      "code": "KOR",
+      "name": "Korea Republic",
+      "penalties": 0
+    },
+    "away_team": {
+      "goals": 1,
+      "code": "GER",
+      "name": "Germany",
+      "penalties": 0
+    },
+    "home_team_statistics": {
+      "ball_possession": 34.299538,
+      "num_passes": 232,
+      "attempts_on_goal": 5,
+      "distance_covered": 0,
+      "distance_walking": 40967.895710000004,
+      "distance_speedsprinting": 1564.328194,
+      "distance_speedrunning": 22370.98711,
+      "distance_jogging": 39130.083566
+    },
+    "away_team_statistics": {
+      "ball_possession": 65.70046,
+      "num_passes": 568,
+      "attempts_on_goal": 13,
+      "distance_covered": 0,
+      "distance_walking": 44022.916224,
+      "distance_speedsprinting": 1711.256652,
+      "distance_speedrunning": 23163.480564,
+      "distance_jogging": 38095.033704
+    },
+    "home_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "6'",
+        "player": "S H CHO",
+        "position": "in"
+      }
+    ],
+    "away_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "42'",
+        "player": "POPP",
+        "position": "in"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "venue": "Perth Rectangular Stadium",
+    "location": "Perth ",
+    "stage_name": "First Stage",
+    "datetime": "2023-08-03T10:00:00Z",
+    "home_team": {
+      "goals": 1,
+      "code": "MAR",
+      "name": "Morocco",
+      "penalties": 0
+    },
+    "away_team": {
+      "goals": 0,
+      "code": "COL",
+      "name": "Colombia",
+      "penalties": 0
+    },
+    "home_team_statistics": {
+      "ball_possession": 41.030205,
+      "num_passes": 313,
+      "attempts_on_goal": 10,
+      "distance_covered": 0,
+      "distance_walking": 40993.773428,
+      "distance_speedsprinting": 2434.1150079999998,
+      "distance_speedrunning": 26822.074992,
+      "distance_jogging": 41368.252660000006
+    },
+    "away_team_statistics": {
+      "ball_possession": 58.969795,
+      "num_passes": 499,
+      "attempts_on_goal": 11,
+      "distance_covered": 0,
+      "distance_walking": 43894.659069,
+      "distance_speedsprinting": 1891.734759,
+      "distance_speedrunning": 21183.154194000002,
+      "distance_jogging": 34810.057119
+    },
+    "home_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "45'+4'",
+        "player": "LAHMARI",
+        "position": "in"
+      }
+    ],
+    "away_team_events": []
+  },
+  {
+    "id": 48,
+    "venue": "Eden Park",
+    "location": "Auckland ",
+    "stage_name": "Round of 16",
+    "datetime": "2023-08-05T05:00:00Z",
+    "home_team": {
+      "goals": 1,
+      "code": "SUI",
+      "name": "Switzerland",
+      "penalties": 0
+    },
+    "away_team": { "goals": 5, "code": "ESP", "name": "Spain", "penalties": 0 },
+    "home_team_statistics": {
+      "ball_possession": 34.701447,
+      "num_passes": 317,
+      "attempts_on_goal": 2,
+      "distance_covered": 0,
+      "distance_walking": 37383.955200000004,
+      "distance_speedsprinting": 1402.4336,
+      "distance_speedrunning": 22417.5264,
+      "distance_jogging": 41259.382399999995
+    },
+    "away_team_statistics": {
+      "ball_possession": 65.29855,
+      "num_passes": 680,
+      "attempts_on_goal": 25,
+      "distance_covered": 0,
+      "distance_walking": 38550.281391000004,
+      "distance_speedsprinting": 1865.5131900000003,
+      "distance_speedrunning": 24251.67147,
+      "distance_jogging": 39932.955873000006
+    },
+    "home_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "11'",
+        "player": "L. CODINA",
+        "position": "out"
+      }
+    ],
+    "away_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "5'",
+        "player": "AITANA",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "17'",
+        "player": "ALBA",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "36'",
+        "player": "AITANA",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "45'",
+        "player": "L. CODINA",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "70'",
+        "player": "J. HERMOSO",
+        "position": "in"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "venue": "Wellington Regional Stadium",
+    "location": "Wellington ",
+    "stage_name": "Round of 16",
+    "datetime": "2023-08-05T08:00:00Z",
+    "home_team": { "goals": 3, "code": "JPN", "name": "Japan", "penalties": 0 },
+    "away_team": {
+      "goals": 1,
+      "code": "NOR",
+      "name": "Norway",
+      "penalties": 0
+    },
+    "home_team_statistics": {
+      "ball_possession": 55.644173,
+      "num_passes": 610,
+      "attempts_on_goal": 15,
+      "distance_covered": 0,
+      "distance_walking": 36123.851808,
+      "distance_speedsprinting": 1379.730451,
+      "distance_speedrunning": 23398.404012,
+      "distance_jogging": 48860.702334999994
+    },
+    "away_team_statistics": {
+      "ball_possession": 44.355824,
+      "num_passes": 432,
+      "attempts_on_goal": 7,
+      "distance_covered": 0,
+      "distance_walking": 37286.17741800001,
+      "distance_speedsprinting": 1195.292958,
+      "distance_speedrunning": 26064.349356000002,
+      "distance_jogging": 46790.497152
+    },
+    "home_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "15'",
+        "player": "ENGEN",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "50'",
+        "player": "RISA",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "81'",
+        "player": "MIYAZAWA",
+        "position": "in"
+      }
+    ],
+    "away_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "20'",
+        "player": "REITEN",
+        "position": "in"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "venue": "Sydney Football Stadium",
+    "location": "Sydney ",
+    "stage_name": "Round of 16",
+    "datetime": "2023-08-06T02:00:00Z",
+    "home_team": {
+      "goals": 2,
+      "code": "NED",
+      "name": "Netherlands",
+      "penalties": 0
+    },
+    "away_team": {
+      "goals": 0,
+      "code": "RSA",
+      "name": "South Africa",
+      "penalties": 0
+    },
+    "home_team_statistics": {
+      "ball_possession": 67.6896,
+      "num_passes": 654,
+      "attempts_on_goal": 12,
+      "distance_covered": 0,
+      "distance_walking": 41769.551125,
+      "distance_speedsprinting": 2209.743995,
+      "distance_speedrunning": 21429.127131999998,
+      "distance_jogging": 37091.361398999994
+    },
+    "away_team_statistics": {
+      "ball_possession": 32.31041,
+      "num_passes": 276,
+      "attempts_on_goal": 14,
+      "distance_covered": 0,
+      "distance_walking": 39508.642250000004,
+      "distance_speedsprinting": 2072.92097,
+      "distance_speedrunning": 20759.995655000002,
+      "distance_jogging": 35711.7078
+    },
+    "home_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "9'",
+        "player": "ROORD",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "68'",
+        "player": "BEERENSTEYN",
+        "position": "out"
+      }
+    ],
+    "away_team_events": []
+  },
+  {
+    "id": 51,
+    "venue": "Melbourne Rectangular Stadium",
+    "location": "Melbourne ",
+    "stage_name": "Round of 16",
+    "datetime": "2023-08-06T09:00:00Z",
+    "home_team": {
+      "goals": 0,
+      "code": "SWE",
+      "name": "Sweden",
+      "penalties": 5
+    },
+    "away_team": { "goals": 0, "code": "USA", "name": "USA", "penalties": 4 },
+    "home_team_statistics": {
+      "ball_possession": 41.35975,
+      "num_passes": 431,
+      "attempts_on_goal": 8,
+      "distance_covered": 0,
+      "distance_walking": 51136.70092799999,
+      "distance_speedsprinting": 1948.4653039999996,
+      "distance_speedrunning": 30152.150136,
+      "distance_jogging": 49889.122424
+    },
+    "away_team_statistics": {
+      "ball_possession": 58.640247,
+      "num_passes": 588,
+      "attempts_on_goal": 21,
+      "distance_covered": 0,
+      "distance_walking": 48754.088945999996,
+      "distance_speedsprinting": 2090.046402,
+      "distance_speedrunning": 28345.40055,
+      "distance_jogging": 50953.41882
+    },
+    "home_team_events": [],
+    "away_team_events": [],
+    "home_team_penaltis": [
+      { "type_of_event": "goal", "player": "ROLFÖ" },
+      { "type_of_event": "goal", "player": "RUBENSSON" },
+      { "type_of_event": "missed", "player": "BJORN" },
+      { "type_of_event": "missed", "player": "BLOMQVIST" },
+      { "type_of_event": "goal", "player": "BENNISON" },
+      { "type_of_event": "goal", "player": "ERIKSSON" },
+      { "type_of_event": "goal", "player": "HURTIG" }
+    ],
+    "away_team_penaltis": [
+      { "type_of_event": "goal", "player": "SULLIVAN " },
+      { "type_of_event": "goal", "player": "HORAN " },
+      { "type_of_event": "goal", "player": "MEWIS " },
+      { "type_of_event": "missed", "player": "RAPINOE " },
+      { "type_of_event": "missed", "player": "SMITH " },
+      { "type_of_event": "goal", "player": "NAEHER " },
+      { "type_of_event": "missed", "player": "O'HARA " }
+    ]
+  },
+  {
+    "id": 52,
+    "venue": "Brisbane Stadium",
+    "location": "Brisbane ",
+    "stage_name": "Round of 16",
+    "datetime": "2023-08-07T07:30:00Z",
+    "home_team": {
+      "goals": 0,
+      "code": "ENG",
+      "name": "England",
+      "penalties": 4
+    },
+    "away_team": {
+      "goals": 0,
+      "code": "NGA",
+      "name": "Nigeria",
+      "penalties": 2
+    },
+    "home_team_statistics": {
+      "ball_possession": 50.300728,
+      "num_passes": 548,
+      "attempts_on_goal": 12,
+      "distance_covered": 0,
+      "distance_walking": 53040.11376899999,
+      "distance_speedsprinting": 2172.7917929999994,
+      "distance_speedrunning": 27059.922329999998,
+      "distance_jogging": 45255.387344999996
+    },
+    "away_team_statistics": {
+      "ball_possession": 49.699272,
+      "num_passes": 410,
+      "attempts_on_goal": 17,
+      "distance_covered": 0,
+      "distance_walking": 54310.44098000001,
+      "distance_speedsprinting": 2752.757415,
+      "distance_speedrunning": 25665.805850000004,
+      "distance_jogging": 44256.89216
+    },
+    "home_team_events": [],
+    "away_team_events": [],
+    "home_team_penaltis": [
+      { "type_of_event": "missed", "player": "STANWAY" },
+      { "type_of_event": "goal", "player": "ENGLAND" },
+      { "type_of_event": "goal", "player": "DALY" },
+      { "type_of_event": "goal", "player": "GREENWOOD" },
+      { "type_of_event": "goal", "player": "KELLY" }
+    ],
+    "away_team_penaltis": [
+      { "type_of_event": "missed", "player": "DESIRE" },
+      { "type_of_event": "missed", "player": "ALOZIE" },
+      { "type_of_event": "goal", "player": "AJIBADE" },
+      { "type_of_event": "goal", "player": "UCHEIBE" }
+    ]
+  },
+  {
+    "id": 53,
+    "venue": "Stadium Australia",
+    "location": "Sydney ",
+    "stage_name": "Round of 16",
+    "datetime": "2023-08-07T10:30:00Z",
+    "home_team": {
+      "goals": 2,
+      "code": "AUS",
+      "name": "Australia",
+      "penalties": 0
+    },
+    "away_team": {
+      "goals": 0,
+      "code": "DEN",
+      "name": "Denmark",
+      "penalties": 0
+    },
+    "home_team_statistics": {
+      "ball_possession": 47.30438,
+      "num_passes": 379,
+      "attempts_on_goal": 10,
+      "distance_covered": 0,
+      "distance_walking": 37311.170325,
+      "distance_speedsprinting": 2093.4774300000004,
+      "distance_speedrunning": 25042.942375000002,
+      "distance_jogging": 42938.797825
+    },
+    "away_team_statistics": {
+      "ball_possession": 52.69562,
+      "num_passes": 495,
+      "attempts_on_goal": 13,
+      "distance_covered": 0,
+      "distance_walking": 38992.513823999994,
+      "distance_speedsprinting": 2229.4176,
+      "distance_speedrunning": 24066.562992000003,
+      "distance_jogging": 41099.313455999996
+    },
+    "home_team_events": [
+      {
+        "type_of_event": "goal",
+        "time": "29'",
+        "player": "FOORD",
+        "position": "in"
+      },
+      {
+        "type_of_event": "goal",
+        "time": "70'",
+        "player": "RASO",
+        "position": "in"
+      }
+    ],
+    "away_team_events": [],
+    "home_team_penaltis": [],
+    "away_team_penaltis": []
   }
 ]
