@@ -273,6 +273,19 @@ export const update = ({ context: ctx, width, height, props, ...rest }) => {
       position.quad = 14;
     }
 
+    // Hardcode spain goal
+    if (data.id === 60 && i === 0) {
+      position.row = position.row = 4;
+      position.column = 2;
+      position.quad = 13;
+    }
+
+    if (data.id === 60 && i === 1) {
+      position.row = position.row = 4;
+      position.column = 3;
+      position.quad = 14;
+    }
+
     // Change position if the goal already exis in that quadrant
     // TODO: If happen in the last quadrand not handle yet
     if (quadData[position.quad]) {

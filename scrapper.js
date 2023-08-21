@@ -170,7 +170,7 @@ async function merge(index) {
 // -------------------------------
 
 async function process() {
-  for (let index = 54; index < 100; index++) {
+  for (let index = 63; index < 100; index++) {
     await merge(index);
   }
 }
